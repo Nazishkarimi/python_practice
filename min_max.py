@@ -10,7 +10,7 @@ max_val = random_list[0]
 max_ind = 0
 mean_val = random_list[0]
 
-#to find minimum value
+#to find minimum value & index
 for i in range(1,len(random_list)):
     if min_val > random_list[i]:
         min_val = random_list[i]
@@ -18,7 +18,7 @@ for i in range(1,len(random_list)):
 print('Minimum Value is: ',min_val)
 print('Minimum Index is: ',min_ind)
 
-#to find maximum value
+#to find maximum value & index
 for i in range(1,len(random_list)):
     if max_val < random_list[i]:
         max_val = random_list[i]
