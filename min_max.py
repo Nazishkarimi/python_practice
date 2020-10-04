@@ -5,7 +5,7 @@
 import random
 random_list = []
 
-for i in range(1, 11):
+for i in range(1, 101):
     random_list.append(random.randint(100,1000))
 print(random_list)
 min_val = random_list[0]
